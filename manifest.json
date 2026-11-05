@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Detach and Return",
+    "version": "1.0",
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "commands": {
+        "detach": {
+            "suggested_key": {
+                "default": "Alt+Shift+D"
+            },
+            "description": "Detach current tab"
+        },
+        "reattach": {
+            "suggested_key": {
+                "default": "Alt+Shift+R"
+            },
+            "description": "Return current tab to its original window"
+        }
+    }
+}
