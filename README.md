@@ -8,8 +8,8 @@ The extension remembers where each tab came from, including tabs dragged out wit
 
 | Shortcut | Action |
 | --- | --- |
-| Alt + Shift + D | Detach the current tab into a new window |
-| Alt + Shift + R | Return the current tab to its original window and position |
+| Shift + Alt + D | Detach the current tab into a new window |
+| Shift + Alt + R | Return the current tab to its original window and position |
 
 Change these in `brave://extensions/shortcuts`. If a shortcut does nothing, check that it is assigned there and isn't already used by your desktop environment.
 
